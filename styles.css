@@ -1,0 +1,55 @@
+li{
+    float: left;
+}
+.navBar > li{
+    color: aliceblue;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #383D3B;
+}
+.carousel-item:hover .overlay{
+    opacity: 0.5;
+}
+#MainPage1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+li.navBarButtons:hover:not(.active){
+    background-color: #383D3B;
+}
+.active{
+    background-color: #F96900;
+}
+li.navBarButtons > .fa-solid{
+    margin-left: 10px;
+}
+
+li.navBarButtons{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+li.navBarButtons.searchBar{
+    padding: 11px 16px;
+}

@@ -1,5 +1,6 @@
 :root{
     --GradientColor: #f968007a;
+    --PageMainColor: #F96900;
 }
 .overlay{
     position: absolute;
@@ -36,12 +37,16 @@
     background-position: center;
 }
 #GymButton{
-    background:linear-gradient(0deg, var(--GradientColor), var(--GradientColor)), url(/Media/Gym.png);
+    background:linear-gradient(0deg, var(--GradientColor), var(--GradientColor)), url(Media/Gym.png);
 
 }
 #MuseumButton{
-    background:linear-gradient(0deg, var(--GradientColor), var(--GradientColor)), url(/Media/Museum.png);
+    background:linear-gradient(0deg, var(--GradientColor), var(--GradientColor)), url(Media/Museum.png);
 }
 #RingButton{
-    background:linear-gradient(0deg, var(--GradientColor), var(--GradientColor)), url(/Media/Ring.jpg);
+    background:linear-gradient(0deg, var(--GradientColor), var(--GradientColor)), url(Media/Ring.jpg);
+}
+.btn-warning{
+    background-color: var(--PageMainColor);
+    color: white;
 }

@@ -1,0 +1,47 @@
+:root{
+    --GradientColor: #f968007a;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #383D3B;
+}
+.carousel-item:hover .overlay{
+    opacity: 0.5;
+}
+#MainPage1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.active{
+    background-color: #F96900;
+}
+#ButtonGroupServices >.btn-warning{
+    height: 350px;
+    border-style: none;
+    color: white;
+    font-size: x-large;
+    background-repeat:no-repeat;
+    background-size: 800px;
+    background-position: center;
+}
+#GymButton{
+    background:linear-gradient(0deg, var(--GradientColor), var(--GradientColor)), url(/Media/Gym.png);
+
+}
+#MuseumButton{
+    background:linear-gradient(0deg, var(--GradientColor), var(--GradientColor)), url(/Media/Museum.png);
+}
+#RingButton{
+    background:linear-gradient(0deg, var(--GradientColor), var(--GradientColor)), url(/Media/Ring.jpg);
+}

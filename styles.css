@@ -50,3 +50,27 @@
     background-color: var(--PageMainColor);
     color: white;
 }
+.btn-outline-warning{
+    outline-color: var(--PageMainColor);
+}
+.list-unstyled > li > a{
+    text-decoration: none;
+    color: black;    
+    font-weight: 500;
+    font-size: large;
+    
+}
+.list-unstyled > li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    text-align: center;
+    
+}
+.list-unstyled > li:hover{
+    background-color: #F96900;
+    transition: .5s;
+}
